@@ -20,8 +20,6 @@ function Button(props: ButtonProps) {
  if(backgroundColor === 'Laranja') bg = '#C62C00'
  if(backgroundColor === 'Azul') bg = '#13637A'
 
-  console.log(bg, disable)
-
   return (
     <Btn disabled={disable} background={bg} onClick={handleClick} >
       {label}
